@@ -7,7 +7,7 @@ terraform {
 }
 
 data "aws_instance" "jenkins"{
-    instance_id = i-073d95a812f8e4d01
+    instance_id = "i-073d95a812f8e4d01"
 }
 
 resource "aws_route53_record" "jenkins" {
